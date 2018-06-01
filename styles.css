@@ -1,4 +1,5 @@
 
+
 ul.topnav {
     list-style-type: none;
     margin: 0;
@@ -11,6 +12,7 @@ ul.topnav {
 
 ul.topnav li {
     float: right;
+ 
     
  
     
@@ -26,6 +28,7 @@ ul.topnav li a {
     text-decoration: none;
     transition: 0.3s;
     font-size: 17px;
+    
 }
 
 
@@ -67,7 +70,7 @@ ul.topnav li.icon {display: none;}
 
 
 #logo {
-    width: 150px;
+    width: 14%;
     position: absolute;
 }
 
@@ -82,3 +85,39 @@ nav {
 body {
     margin: 0;
 }
+
+.footer {
+    position: absolute;
+    height: 266px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: lightgrey;
+    color: black;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 9px;
+    display: grid;
+    grid-template-columns: 40% 20% 20% 20%;
+    
+}
+.copyright {
+    position: absolute;
+    height: 21px ;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 8px;
+    font-family: sans-serif;
+    
+}
+    
+
+.ho { 
+    left: 0px ;
+}
+
