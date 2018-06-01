@@ -1,11 +1,4 @@
-.delete {
-    position: absolute;
-    width: 100%;
-    left: 0;
-    top: 0;
-    bottom: 330px;
-    background-color: lightgrey;
-    }
+
 
 .hobox {
     position: absolute;
@@ -46,6 +39,95 @@
     border-right: 2px solid black;
     }
 
+
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #fff;
+    
+}
+
+
+ul.topnav li {
+    float: right;
+ 
+    
+ 
+    
+}
+
+
+
+ul.topnav li a {
+    display: inline-block;
+    color: #000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+    
+}
+
+
+ul.topnav li a:hover {background-color: #939393;}
+
+
+ul.topnav li.icon {display: none;}
+
+
+
+@media screen and (max-width:680px) {
+  ul.topnav li:not(:first-child) {display: none;}
+  ul.topnav li.icon {
+    float: right;
+    display: inline-block;
+  }
+}
+
+
+@media screen and (max-width:680px) {
+  ul.topnav.responsive {position: relative;}
+  ul.topnav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+    
+    
+    
+  ul.topnav.responsive li {
+    float: none;
+    display: inline;
+  }
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: left;
+  }
+}
+
+
+#logo {
+    width: 14%;
+    position: absolute;
+}
+
+nav {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    display: block;
+}
+
+body {
+    margin: 0;
+}
+
+
 .footer {
     position: absolute;
     height: 266px;
@@ -80,4 +162,5 @@
 
 .ho { 
     left: 0px ;
-    }
+}
+
