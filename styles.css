@@ -93,6 +93,7 @@ body {
 
 /* FOOTER
 ================================================ */
+
 .footer {
     position: absolute;
     height: 266px;
@@ -107,9 +108,12 @@ body {
     font-size: 9px;
     display: grid;
     grid-template-columns: 40% 20% 20% 20%;
+    grid-auto-rows: 120px;
     padding: 32px;
     
     }
+
+
 .copyright {
     position: absolute;
     height: 21px ;
@@ -121,16 +125,8 @@ body {
     text-align: center;
     font-size: 8px;
     font-family: sans-serif;
-    
     }
     
-
-.ho { 
-    left: 0px ;
-}
-
-
-
 
 .hobox {
     position: absolute;
@@ -144,14 +140,16 @@ body {
     font-size: 9px;
     display: grid;
     grid-template-columns: 1fr 1.5fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-column-gap: 50px;
     text-align: left;
     }
 
 .line {
     position: absolute;
     left: 27px;
-    bottom: 67px;
-    width: 8%;
+    bottom: 77px;
+    width: 8.5%;
     height: 150px;
     display: grid;
     border-right: 0.5px solid black;
@@ -160,10 +158,71 @@ body {
 .line2 {
     position: absolute;
     left: 27px;
-    bottom: 67px;
-    width: 20%;
+    bottom: 77px;
+    width: 20.5%;
     height: 150px;
     display: grid;
     border-right: 0.5px solid black;
     }
 
+.ho { 
+    left: 0px ;
+}
+
+.nivel2 { 
+    font-family: sans-serif;
+    text-transform: uppercase; 
+    font-size: 11px;
+}
+
+
+.text { 
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size: 10px;
+}
+
+.sobox {
+    position: absolute;
+    left: 0px;
+    bottom: 50px;
+    width: 100%;
+    height: 180px;
+    display: grid;
+    grid-template-columns: 40% 14% 20% 20%;
+    grid-template-rows: 1fr 1fr 1fr;
+    text-align: left;
+    padding: 32px;
+    }
+.cobox {
+    position: absolute;
+    left: 20px;
+    bottom: 50px;
+    width: 100%;
+    height: 180px;
+    display: grid;
+    grid-template-columns: 40% 20% 15% 25%;
+    grid-auto-rows: 30px;
+    text-align: left;
+    padding: 32px;
+    }
+
+.nebox {
+    position: absolute;
+    left: 0px;
+    bottom: 50px;
+    width: 100%;
+    height: 180px;
+    display: grid;
+    grid-template-columns: 40% 25% 15% 14%;
+    grid-auto-rows: 60px;
+    text-align: left;
+    padding: 32px;
+    }
+
+.subs { 
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 10px;
+    text-align: right;
+}
