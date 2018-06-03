@@ -220,4 +220,9 @@ body {
     padding: 32px;
     }
 
-
+.subs { 
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 10px;
+    text-align: right;
+}
